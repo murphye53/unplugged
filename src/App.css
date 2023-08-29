@@ -28,6 +28,109 @@
   color: #61dafb;
 }
 
+html{
+  min-width: 350px;
+}
+
+.navbar{
+  background-color: deepskyblue;
+  border-radius: 0 0 30px 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  display: flex;
+  filter: drop-shadow(0 0 0.3rem deepskyblue);
+}
+
+.nav-link{
+  font-size: 1.4rem !important;
+}
+
+.nav-link:hover{
+  filter: drop-shadow(0 0 0.3rem white);
+}
+
+.brand{
+  color:white !important;
+  font-size: 2rem !important;
+  font-style: oblique ;
+  font-weight: 1000;
+  position: absolute;
+  /*left: 50%;*/
+  /*-ms-transform: translateX(-50%);*/
+  /*transform: translateX(-50%);*/
+}
+
+.brand-sm{
+  position: relative;
+}
+
+.userAvatar {
+  max-width: 50px;
+  margin-left: 0.5rem;
+}
+
+.userAvatar:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.3rem white);
+
+}
+
+.page {
+  height: calc(100vh - 66px) !important;
+}
+.landingBg{
+  z-index: -1;
+  position: absolute;
+  top:0;
+  left:0;
+  background-size: auto;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.landingCTA{
+  background-color: white;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  max-width: 90vw;
+}
+
+.cta h1{
+  color: black;
+}
+
+.cta h2{
+  color: grey;
+}
+
+.fileUpload{
+  background-color: #e0e0e0 !important;
+  border-radius: 7px !important;
+  max-height: 45vh;
+  max-width: 330px !important;
+}
+
+.fileUpload:hover{
+  background-color: #c1c1c1 !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
