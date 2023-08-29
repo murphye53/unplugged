@@ -51,8 +51,8 @@ function Post(props:PostProps) {
                 }
                 setLoading(false)
             })
-
-    }, [props.postId, props.poster, user])
+     // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
 
     function likePost() {
         if (user?.sub)

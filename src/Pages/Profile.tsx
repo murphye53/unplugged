@@ -53,7 +53,8 @@ function Profile() {
                             setLoadingRequestedUser(false)
                         }
                     }))
-    }, [user, profilePosts, username])
+     // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [user])
 
     function handleFollow(){
         if(activeUser && requestedUser){
