@@ -6,7 +6,7 @@
 import { BlobServiceClient, ContainerClient} from '@azure/storage-blob';
 
 const containerName = `userposts`;
-const sasToken = 'sp=r&st=2023-08-28T04:20:31Z&se=2023-08-30T12:20:31Z&sip=0.0.0.0-255.255.255.255&sv=2022-11-02&sr=c&sig=Bs0D7Y5kfmTPHh9zwWH84QPwP6lScJHD6Wjw67wrO0Y%3D';
+const sasToken = '';
 const storageAccountName = 'unplugged';
 // </snippet_package>
 
