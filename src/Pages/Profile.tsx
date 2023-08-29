@@ -53,7 +53,7 @@ function Profile() {
                             setLoadingRequestedUser(false)
                         }
                     }))
-    }, [user])
+    }, [user, profilePosts, username])
 
     function handleFollow(){
         if(activeUser && requestedUser){

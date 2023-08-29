@@ -52,7 +52,7 @@ function Post(props:PostProps) {
                 setLoading(false)
             })
 
-    }, [])
+    }, [props.postId, props.poster, user])
 
     function likePost() {
         if (user?.sub)
